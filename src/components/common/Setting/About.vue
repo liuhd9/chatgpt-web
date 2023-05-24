@@ -45,7 +45,7 @@ onMounted(() => {
         Version - {{ pkg.version }}
       </h2>
       <div class="p-2 space-y-2 rounded-md bg-neutral-100 dark:bg-neutral-700">
-        <p>
+        <!-- <p>
           此项目开源于
           <a
             class="text-blue-600 dark:text-blue-500"
@@ -58,7 +58,7 @@ onMounted(() => {
         </p>
         <p>
           如果你觉得此项目对你有帮助，请在 GitHub 帮我点个 Star 或者给予一点赞助，谢谢！
-        </p>
+        </p> -->
       </div>
       <p>{{ $t("setting.api") }}：{{ config?.apiModel ?? '-' }}</p>
       <p v-if="isChatGPTAPI">
